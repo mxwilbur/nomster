@@ -16,10 +16,10 @@ module Nomster
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     # Add the fonts path
-    config.assets.path << "#{Rails.root}/app/assets/fonts"
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"
 
     # Precompile additional assets
     config.assets.precompile += %w( .svg .eat .woff .ttf )
-    
+
   end
 end
