@@ -73,5 +73,6 @@ source 'https://rails-assets.org' do
 end
 
 # add pagination via pagy 
-gem 'pagy'
+gem 'pagy', '~> 3.2', '>= 3.2.1'
+
 
