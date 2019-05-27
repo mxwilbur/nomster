@@ -77,7 +77,7 @@ end
 # add pagination via pagy 
 gem 'pagy', '~> 3.2', '>= 3.2.1'
 
-
+gem "font-awesome-rails"
 
 
 
