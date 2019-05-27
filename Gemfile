@@ -67,6 +67,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
+# add a simple-form
+gem 'simple_form'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
@@ -74,5 +76,8 @@ end
 
 # add pagination via pagy 
 gem 'pagy', '~> 3.2', '>= 3.2.1'
+
+
+
 
 
