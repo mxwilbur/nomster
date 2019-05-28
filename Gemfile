@@ -78,6 +78,6 @@ end
 gem 'pagy', '~> 3.2', '>= 3.2.1'
 
 gem "font-awesome-rails"
-
+gem 'devise'
 
 
