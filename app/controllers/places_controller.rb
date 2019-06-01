@@ -1,5 +1,5 @@
 class PlacesController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create, :edit]
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
   def index
     @pagy, @places = pagy(Place.all, items: 10)
 
@@ -23,7 +23,7 @@ class PlacesController < ApplicationController
 
     if @place.user != current_user
       return render plain: "Not Allowed", status: :forbidden
-    end
+    endß
   end
 
   def update
@@ -34,6 +34,10 @@ class PlacesController < ApplicationController
 
   def destroy
     @place = Place.find(params[:id])
+
+    if @place.user != current_user
+      return render plain: 'Not Allowed', status: :forbidden
+    end
     @place.destroy
     redirect_to root_path
   end  
