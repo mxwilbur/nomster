@@ -79,5 +79,9 @@ gem 'pagy', '~> 3.2', '>= 3.2.1'
 
 gem "font-awesome-rails"
 gem 'devise'
+# add geocoding
+gem "geocoder"
+# add figaro to store sensitive data
+gem "figaro"
 
 
