@@ -25,14 +25,16 @@
     </script>
 
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSsKkJSlajf1QY7uFs_MwClbehWHhH0Es&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=
+    <%= ENV["SECRET_KEY_BASE_DEV"] %>
+    &callback=initMap">
     </script>
 
     <div id="map"></div>
   <% end %>
 
   <br />
-  
+
   <div class="float-right">
     <% if current_user && current_user == @place.user %>
       <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
