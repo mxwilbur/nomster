@@ -41,12 +41,12 @@
     <% end %> 
   </div>
   <div class="clear"></div>
-  <%= simple_form_for @comment, url: place_comments_path(@place) do |f| %>
-    <%= f.input :message %>
-    <%= f.input :rating %>
-    <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
-  <% end %>
-
+    <%= simple_form_for @comment, url: place_comments_path(@place) do |f| %>
+      <%= f.input :message %>
+      <%= f.input :rating %>
+      <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
+    <% end %>
+  </div>
   <h1>Comments</h1>
 
   <%= @place.comments.each do |comment| %>
@@ -57,8 +57,8 @@
         <small><%= comment.user.email %></small>
       </blockquote>
     </div>
-    <% end %>
-    
+  <% end %>
+
 </div>
 
 
