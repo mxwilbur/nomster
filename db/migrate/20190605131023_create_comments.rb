@@ -1,6 +1,6 @@
 class CreateComments < ActiveRecord::Migration[5.2]
   def change
-    create_table :comments do |t|
+    create_table "comments", force: :cascade do |t|
       t.text :message
       t.string :rating
       t.integer :user_id
