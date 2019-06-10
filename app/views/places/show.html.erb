@@ -91,3 +91,11 @@
     </div>
   <% end %>
 </div>
+
+<div class="clear"></div>
+<%= simple_form_for, url: '#' do |f| %>
+  <%= f.input :image %>
+  <%= f.input :caption %>
+  <%= f.submit "Add an Image", class: 'btn btn-primary' %>
+<% end %>
+
