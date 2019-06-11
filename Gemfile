@@ -83,5 +83,7 @@ gem 'devise'
 gem "geocoder"
 # add figaro to store sensitive data
 gem "figaro"
+# add carrierwave to upload files from Ruby applications
+gem 'carrierwave', '~> 1.0'
 
 
