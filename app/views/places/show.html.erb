@@ -131,12 +131,13 @@
 
 <div class="row">
   <% @place.photos.each do |photo| %>
-
-      <= image_tag photo.picture.url %>
-        
-        <b><%= photo.caption %></b>
-        <small><%= photo.user.email %></small>
-      <% end %>
+    <div class="col012 col-sm-sm-6">
+      <blockquote>
+        <%= image_tag photo.picture.url %>
+          <%= photo.caption %>
+          <small><%= photo.user.email %></small>
+        <% end %>
+      </blockquote>
     </div>
   <% end %>
 </div>
