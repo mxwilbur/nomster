@@ -25,7 +25,7 @@
     <% end %>
     <% if place.photos.present? %>
       <div class="col-12">
-        <%= @place.photos.each do |photo| %>
+        <% @place.photos.each do |photo| %>
           <%= image_tag photo.picture.url %>
           <%= photo.caption %>
         <% end %>
