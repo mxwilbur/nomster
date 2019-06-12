@@ -1,8 +1,9 @@
 class PlacesController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
   def index
-    @pagy, @places = pagy(Place.all, items: 5)
+    @pagy, @places = pagy(Place.all, items: 4)
     @photo = Photo.new
+    @image = Image.new
   end
 
   def new
@@ -23,6 +24,7 @@ class PlacesController < ApplicationController
     @place = Place.find(params[:id])
     @comment = Comment.new
     @photo = Photo.new
+    @image = Image.new
   end
 
   def view
