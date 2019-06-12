@@ -20,7 +20,14 @@
       </div>    
     <% end %>
 
+    <div class="clear"></div>
 
+    <% if place.photos.present? %>
+      <div class="row">
+        <%= image_tag place.photos.first.picture.url %>
+        <%= @photo.caption %>     
+      </div>
+    <% end %>
 
   </div>
 <% end %>
