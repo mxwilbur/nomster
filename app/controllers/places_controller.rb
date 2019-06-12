@@ -2,7 +2,7 @@ class PlacesController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
   def index
     @pagy, @places = pagy(Place.all, items: 5)
-
+    @photo = Photo.new
   end
 
   def new
