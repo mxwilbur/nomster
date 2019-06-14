@@ -85,5 +85,7 @@ gem "geocoder"
 gem "figaro"
 # add carrierwave to upload files from Ruby applications
 gem 'carrierwave', '~> 1.0'
+# add fog to use amazon s3 for file storage
+gem "fog-aws"
 
 
