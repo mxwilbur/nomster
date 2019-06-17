@@ -72,7 +72,10 @@ blockquote p {
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
   height: 550px;
-  width: 100%
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
 }
 
 .carousel-item.active,
@@ -87,9 +90,10 @@ blockquote p {
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
   background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
-  left: 0;
 }
 
 .carousel {
