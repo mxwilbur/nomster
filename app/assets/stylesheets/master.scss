@@ -99,18 +99,35 @@ blockquote p {
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
 }
-.container {
-  position: relative;
+
+.row {
+  display: flex;
 }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  flex: 33.33%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
 .cap {
   position: absolute;
-  bottom: 20px;
-  left: 16x;
-  font-size: 12px;
-  font-color: #1f71de;
+  bottom: 24px;
+  font-style: bold;
+  font-size: 14px;
+  font-color: #fbf6f6;
+  background-color: rgba(240, 240, 240, 0.25);
 }
 
 .frame {
+  align-items: center;
   border: 4px solid #ddd;
   border-radius: 8px;
   padding: 5px;
@@ -120,7 +137,9 @@ blockquote p {
 .email-id {
   position: absolute;
   bottom: 8px;
-  left: 16x;
-  font-size: 10px;
-  font-color: #1f71de;
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  font-color: #fbf6f6;
+  background-color: rgba(240, 240, 240, 0.25);
 }
