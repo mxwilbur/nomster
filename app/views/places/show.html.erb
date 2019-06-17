@@ -131,9 +131,11 @@
 
 <div class="row">
   <% @place.photos.each do |photo| %>
-    <%= image_tag photo.picture.url || default_image %>
-    <%= photo.caption %>
-    <small><%= photo.user.email %></small>
+    <div class="container"
+      <%= image_tag photo.picture.url || default_image, class: "img" %>
+      <%= photo.caption, class: "bottomleft" %>
+      <%= photo.user.email, class: "email-id" %>
+    </div>
   <% end %>
 </div>
 

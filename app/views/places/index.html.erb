@@ -61,7 +61,7 @@
     <% if place.photos.present? %>
       <div class="row">
         
-        <%= image_tag place.photos.first.picture.url %>
+        <%= image_tag place.photos.last.picture.url %>
         <%= @photo.caption %>
         
 
