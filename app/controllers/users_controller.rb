@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  authenticate_user! unless user_signed_in?
+  before_action :authenticate_user!
   def show
     @user = User.find(params[:id])
   end
