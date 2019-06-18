@@ -55,19 +55,6 @@
         </blockquote>
       </div>    
     <% end %>
-
-    <div class="clear"></div>
-
-    <% if place.photos.present? %>
-      <div class="row">
-        <div class="container">
-          <%= image_tag place.photos.last.picture.url, class: "frame" %>
-          <div class="cap">
-            <%= @photo.caption %>
-          </div>
-        </div>
-      </div>
-    <% end %>
   </div>
 <% end %>
 
