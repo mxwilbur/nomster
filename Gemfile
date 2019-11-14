@@ -66,9 +66,11 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'bootstrap', ">= 4.3.1"
 # add a simple-form
 gem 'simple_form'
+gem 'rubocop', '~> 0.76.0', require: false
+gem 'solargraph', group: :development
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
@@ -78,7 +80,7 @@ end
 gem 'pagy', '~> 3.2', '>= 3.2.1'
 
 gem "font-awesome-rails"
-gem 'devise'
+gem 'devise', ">= 4.7.1"
 # add geocoding
 gem "geocoder"
 # add figaro to store sensitive data
@@ -87,5 +89,11 @@ gem "figaro"
 gem 'carrierwave', '~> 1.0'
 # add fog to use amazon s3 for file storage
 gem "fog-aws"
+
+gem "nokogiri", ">= 1.10.4"
+
+gem "loofah", ">= 2.3.1"
+
+
 
 
