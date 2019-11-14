@@ -32,6 +32,15 @@ body {
   margin-bottom: 0;
 }
 
+.navbar-toggler {
+  background: rgb(192,192,192);
+}
+
+.participate {
+  font-size: 14px;
+  color: rgb(64,64,64);
+}
+
 .fa {
   color: white;
 }
@@ -75,13 +84,18 @@ blockquote p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%
+  width: 50%;
 }
 
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
+}
+
+ 
+b {
+  background: #9F9C99;
 }
 
 .carousel-caption {
@@ -122,7 +136,7 @@ blockquote p {
   bottom: 24px;
   font-style: bold;
   font-size: 14px;
-  font-color: #fbf6f6;
+  color: #fbf6f6;
   background-color: rgba(240, 240, 240, 0.5);
 }
 
@@ -140,6 +154,6 @@ blockquote p {
   text-align: center;
   font-style: italic;
   font-size: 12px;
-  font-color: #fbf6f6;
+  color: #fbf6f6;
   background-color: rgba(240, 240, 240, 0.5);
 }
