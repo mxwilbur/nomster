@@ -68,7 +68,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'popper_js', '~> 1.14.5'
 gem 'bootstrap', ">= 4.3.1"
 # add a simple-form
-gem 'simple_form'
+gem 'simple_form', ">= 5.0.0"
 gem 'rubocop', '~> 0.76.0', require: false
 gem 'solargraph', group: :development
 
@@ -89,4 +89,5 @@ gem "figaro"
 gem 'carrierwave', '~> 1.0'
 # add fog to use amazon s3 for file storage
 gem "fog-aws"
+gem "nokogiri", ">= 1.10.4"
 
