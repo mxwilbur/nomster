@@ -1,11 +1,11 @@
+
 # Nomster
 
-Nomster is like Yelp. You can browse the existing content but you cannot contribute unless registered. The site currently focuses on pizza restaurants serving the greater Cambridge, MA area. Check it out [link](https://nomster-mike-wilbur.herokuapp.com "here")!
+Nomster is similar to Yelp. You can browse the existing content but you cannot contribute unless registered. The site currently focuses on pizza restaurants serving the greater Cambridge, MA area. Check it out [here](https://nomster-mike-wilbur.herokuapp.com "here")!
 
 # Usage
 
 Visitors to Nomster can currently do the following:
-
 - You can participate and sign up to use Nomster
 - Add places which automatically includes a google map of the location upon posting
 - Rate restaurants and add images
@@ -14,16 +14,9 @@ Visitors to Nomster can currently do the following:
 
 ## Screenshots
 
-<img src="images/nomster_start.gif"
-    alt="Home Screen"
-    style="float: left; margin-right; 10px;"
-    width="200"/> <img src="nomster_2.gif"
-    alt="Home Screen"
-    style="float; left; margin-right: 10px;"
-    width="200"/> <img src="nomster_3.gif"
-    alt="home Screen"
-    style="float; left; margin-right: 10px"
-    width="186"/>
+https://github.com/mxwilbur/nomster/blob/master/app/assets/images/Nomster_start.gif
+https://github.com/mxwilbur/nomster/blob/master/app/assets/images/nomster_2.gif
+https://github.com/mxwilbur/nomster/blob/master/app/assets/images/nomster_3.gif
 
 # Bugs
 
