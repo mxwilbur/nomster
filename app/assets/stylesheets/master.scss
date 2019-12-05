@@ -80,11 +80,11 @@ blockquote p {
 }
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-  height: 550px;
+  height: 400px;
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin-right: auto; 
+  width: 40%;
 }
 
 .carousel-item.active,
@@ -102,9 +102,7 @@ b {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 60px;
   font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 50%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
