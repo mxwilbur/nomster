@@ -14,9 +14,9 @@ Visitors to Nomster can currently do the following:
 - View your myprofile page that shows user history. History includes location(s) added, comments received and comments posted by location.
 
 ## Screenshots
-![Nomster demo](images/nomster_1.gif)
-![Nomster demo](images/nomster_2.gif)
-![Nomster demo](images/nomster_3.gif)
+![Nomster demo](https://github.com/mxwilbur/nomster/blob/master/nomster_1.gif)
+![Nomster demo](https://github.com/mxwilbur/nomster/blob/master/app/assets/images/nomster_2.gif)
+![Nomster demo](https://github.com/mxwilbur/nomster/blob/master/app/assets/images/nomster_3.gif)
 
 # Bugs
 
