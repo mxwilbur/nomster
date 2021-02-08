@@ -86,7 +86,7 @@ gem "geocoder"
 # add figaro to store sensitive data
 gem "figaro"
 # add carrierwave to upload files from Ruby applications
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 # add fog to use amazon s3 for file storage
 gem "fog-aws"
 gem "nokogiri", ">= 1.10.4"
